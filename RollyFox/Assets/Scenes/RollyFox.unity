@@ -936,9 +936,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   sprites:
-  - {fileID: 21300000, guid: 4b4a57de377138e4e8369d8145550062, type: 3}
-  - {fileID: 21300000, guid: 47a1c54c1427e10458e1e21315a00666, type: 3}
-  - {fileID: 21300000, guid: 477a76ff29832b2499b9244de7070326, type: 3}
+  - {fileID: -5246945396635060778, guid: fe06de029ecca4564984e0e9b3a6fa56, type: 3}
+  - {fileID: 65400084286058479, guid: 57adbc51ef2754d399a62b2469cb4e07, type: 3}
+  - {fileID: 5424499409558539327, guid: 65118c7f6771a44e3a27c6bb074ea3a3, type: 3}
   gravity: -9.8
   strength: 5
 --- !u!58 &1440061445
@@ -1051,12 +1051,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6050602589893541272, guid: 0f9c5980762bf47009137e7119fe782b, type: 3}
+  m_Sprite: {fileID: -5246945396635060778, guid: fe06de029ecca4564984e0e9b3a6fa56, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.7083333, y: 0.5}
+  m_Size: {x: 6.31, y: 2.14}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
