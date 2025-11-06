@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 0f9c5980762bf47009137e7119fe782b
+guid: 57adbc51ef2754d399a62b2469cb4e07
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6050602589893541272
-    second: "\u2014Pngtree\u2014fox fox paper cut paper-cut_3932726-Picsart-BackgroundRemover_0"
+      213: 65400084286058479
+    second: fox2_0
   - first:
-      213: -7626989008018802661
-    second: "\u2014Pngtree\u2014fox fox paper cut paper-cut_3932726-Picsart-BackgroundRemover_1"
+      213: -1985091896711761100
+    second: fox2_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,45 +116,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fox1
+      name: fox2_0
       rect:
         serializedVersion: 2
-        x: 27
-        y: 263
-        width: 655
-        height: 242
-      alignment: 9
-      pivot: {x: 0.45478058, y: 0.5226108}
+        x: 29
+        y: 266
+        width: 631
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 86246508001f70ca0800000000000000
-      internalID: -6050602589893541272
+      spriteID: fefa628b70958e000800000000000000
+      internalID: 65400084286058479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "\u2014Pngtree\u2014fox fox paper cut paper-cut_3932726-Picsart-BackgroundRemover_1"
+      name: fox2_1
       rect:
         serializedVersion: 2
-        x: 29
-        y: 193
-        width: 647
-        height: 86
+        x: 65
+        y: 218
+        width: 566
+        height: 47
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b18fa3f18ed772690800000000000000
-      internalID: -7626989008018802661
+      spriteID: 4333df9ff698374e0800000000000000
+      internalID: -1985091896711761100
       vertices: []
       indices: 
       edges: []
@@ -163,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 2d39b09610f864c6ba0fdd0b48c839d4
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -173,8 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      fox1: -6050602589893541272
-      "\u2014Pngtree\u2014fox fox paper cut paper-cut_3932726-Picsart-BackgroundRemover_1": -7626989008018802661
+      fox2_0: 65400084286058479
+      fox2_1: -1985091896711761100
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
