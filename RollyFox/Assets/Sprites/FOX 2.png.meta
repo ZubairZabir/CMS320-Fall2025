@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: fe06de029ecca4564984e0e9b3a6fa56
+guid: 79b29c8974df345c78240800445b6231
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5246945396635060778
-    second: fox1 1_0
+      213: 483466139079078228
+    second: FOX 2_0
   - first:
-      213: 9104873622942841990
-    second: fox1 1_1
+      213: -2201921876340332196
+    second: FOX 2_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -49,12 +49,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 75
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,10 +75,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 256
+    maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
-    textureCompression: 0
+    textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fox1 1_0
+      name: FOX 2_0
       rect:
         serializedVersion: 2
         x: 29
-        y: 271
+        y: 266
         width: 631
-        height: 214
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6d532b516fa1f27b0800000000000000
-      internalID: -5246945396635060778
+      spriteID: 451fcb854ed95b600800000000000000
+      internalID: 483466139079078228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fox1 1_1
+      name: FOX 2_1
       rect:
         serializedVersion: 2
         x: 65
         y: 218
         width: 566
-        height: 42
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,8 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 68cf45402520b5e70800000000000000
-      internalID: 9104873622942841990
+      spriteID: c59a29148b33171e0800000000000000
+      internalID: -2201921876340332196
       vertices: []
       indices: 
       edges: []
@@ -163,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -173,8 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      fox1 1_0: -5246945396635060778
-      fox1 1_1: 9104873622942841990
+      FOX 2_0: 483466139079078228
+      FOX 2_1: -2201921876340332196
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

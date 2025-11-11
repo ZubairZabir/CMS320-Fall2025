@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 65118c7f6771a44e3a27c6bb074ea3a3
+guid: 2e840153110b84f738231c58991562e6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5424499409558539327
-    second: fox3_0
+      213: -6590752561737607343
+    second: FOX 3_0
   - first:
-      213: 3507521149260187183
-    second: fox3_1
+      213: 6658972735481731230
+    second: FOX 3_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -49,12 +49,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 74
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,9 +75,9 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 256
+    maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fox3_0
+      name: FOX 3_0
       rect:
         serializedVersion: 2
         x: 29
@@ -131,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f3c8d070971b74b40800000000000000
-      internalID: 5424499409558539327
+      spriteID: 1575223e671f884a0800000000000000
+      internalID: -6590752561737607343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fox3_1
+      name: FOX 3_1
       rect:
         serializedVersion: 2
         x: 65
@@ -153,8 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f26c2dfc6e73da030800000000000000
-      internalID: 3507521149260187183
+      spriteID: e9856631c6c696c50800000000000000
+      internalID: 6658972735481731230
       vertices: []
       indices: 
       edges: []
@@ -163,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -173,8 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      fox3_0: 5424499409558539327
-      fox3_1: 3507521149260187183
+      FOX 3_0: -6590752561737607343
+      FOX 3_1: 6658972735481731230
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
