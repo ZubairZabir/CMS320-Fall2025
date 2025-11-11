@@ -119,7 +119,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &79106278
+--- !u!1 &144677937
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,8 +127,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 79106280}
-  - component: {fileID: 79106279}
+  - component: {fileID: 144677939}
+  - component: {fileID: 144677938}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
@@ -136,29 +136,29 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &79106279
+--- !u!114 &144677938
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 79106278}
+  m_GameObject: {fileID: 144677937}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3f47377c13a884eb8b9fcdab21991319, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spawner
-  prefab: {fileID: 4973009049025771036, guid: 79f5307639aa44a54a983a8d150aa4bd, type: 3}
+  prefab: {fileID: 6211744415713779545, guid: d54111d4332994672926f2242c453995, type: 3}
   spawnRate: 1
   minHeight: -1
   maxHeight: 1
---- !u!4 &79106280
+--- !u!4 &144677939
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 79106278}
+  m_GameObject: {fileID: 144677937}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 12, y: 0, z: 0}
@@ -1414,7 +1414,7 @@ SceneRoots:
   - {fileID: 1440061448}
   - {fileID: 1660101954}
   - {fileID: 1539548430}
-  - {fileID: 79106280}
+  - {fileID: 144677939}
   - {fileID: 1168474692}
   - {fileID: 1303450913}
   - {fileID: 240791124}
