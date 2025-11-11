@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7371399495004889780}
   - component: {fileID: 9214767406758084240}
+  - component: {fileID: -1224962702192663132}
   m_Layer: 0
-  m_Name: Spawner
+  m_Name: Pipes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51,6 +52,19 @@ MonoBehaviour:
   spawnRate: 1
   minHeight: -1
   maxHeight: 1
+--- !u!114 &-1224962702192663132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6211744415713779545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a097c00820b84299aff3b5f887ae0db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Pipes
+  speed: 5
 --- !u!1 &7648811584674419054
 GameObject:
   m_ObjectHideFlags: 0
