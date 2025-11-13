@@ -424,7 +424,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d88b1f9f2e444106bd26b74455d3c75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
-  sprites: []
+  sprites:
+  - {fileID: 21300000, guid: 6bda69b522cb24f65b600cbe6c595c6f, type: 3}
+  - {fileID: 21300000, guid: 79b29c8974df345c78240800445b6231, type: 3}
+  - {fileID: 21300000, guid: 2e840153110b84f738231c58991562e6, type: 3}
   gravity: -9.8
   strength: 5
 --- !u!1660057539 &9223372036854775807
