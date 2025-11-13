@@ -936,9 +936,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   sprites:
-  - {fileID: -5414361609186301803, guid: 6bda69b522cb24f65b600cbe6c595c6f, type: 3}
-  - {fileID: 483466139079078228, guid: 79b29c8974df345c78240800445b6231, type: 3}
-  - {fileID: -6590752561737607343, guid: 2e840153110b84f738231c58991562e6, type: 3}
+  - {fileID: 21300000, guid: 6bda69b522cb24f65b600cbe6c595c6f, type: 3}
+  - {fileID: 21300000, guid: 79b29c8974df345c78240800445b6231, type: 3}
+  - {fileID: 21300000, guid: 2e840153110b84f738231c58991562e6, type: 3}
   gravity: -9.8
   strength: 5
 --- !u!58 &1440061445
@@ -971,7 +971,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1051,12 +1051,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -5414361609186301803, guid: 6bda69b522cb24f65b600cbe6c595c6f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6bda69b522cb24f65b600cbe6c595c6f, type: 3}
   m_Color: {r: 0.9764706, g: 0.9764706, b: 0.9764706, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 9.333333, y: 9.333333}
+  m_Size: {x: 29.166668, y: 29.166668}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1072,7 +1072,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.13, y: 0.13, z: 0.13}
+  m_LocalScale: {x: 0.08, y: 0.08, z: 0.08}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -1284,7 +1284,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 64f80c99d31114c9681d077518995ffb, type: 2}
+  - {fileID: 2100000, guid: edf9f65bb935543f78b94250229917e2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1368,7 +1368,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1260527324807944466, guid: 50b78df351397435889ad5f411834e82, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 870acec51027cb14e80c428dac8d1a6b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1403,7 +1403,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -320}
-  m_SizeDelta: {x: 450, y: 300}
+  m_SizeDelta: {x: 600, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
