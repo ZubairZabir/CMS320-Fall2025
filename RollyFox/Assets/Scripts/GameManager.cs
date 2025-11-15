@@ -13,12 +13,17 @@ public class GameManager : MonoBehaviour
     public GameObject gameOver;
     
     private int score;
+    private AudioManager audioManager;
 
     private void Awake()
     {
         Pause();
+    }
 
-
+    private void Start()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("music")
+                                 .GetComponent<AudioManager>();
     }
 
 
@@ -33,13 +38,17 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
         player.enabled = true;
 
-        Pipes[] pipes = FindObjectsOfType<Pipes>();
+        Pipes[] pipes = FindObjectsByType<Pipes>(FindObjectsSortMode.None);
 
         for( int i = 0; i < pipes.Length; i++) {
             Destroy(pipes[i].gameObject);
         }
 
-
+        // Restart background music when game restarts
+        if (audioManager != null)
+        {
+            audioManager.StartBackgroundMusic();
+        }
     }
 
      public void Pause()
@@ -53,6 +62,12 @@ public class GameManager : MonoBehaviour
     {
         gameOver.SetActive(true);
         playButton.SetActive(true);
+
+        // Play game over music (background music already stopped by Player)
+        if (audioManager != null)
+        {
+            audioManager.PlayGameOverMusic();
+        }
 
         Pause();
     }

@@ -14,12 +14,17 @@ public class Player : MonoBehaviour
 
     public float strength = 5f;
 
+    private AudioManager audioManager;
+
     public void Awake(){
         spriteRenderer = GetComponent<SpriteRenderer>(); 
     }
 
     private void Start(){
         InvokeRepeating(nameof(AnimateSprite), 0.15f, 0.15f);
+
+        audioManager = GameObject.FindGameObjectWithTag("music")
+                                 .GetComponent<AudioManager>();
     }
 
     private void OnEnable()
@@ -61,9 +66,15 @@ public class Player : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other) 
     {
         if (other.gameObject.tag == "Obstacle") {
-            FindObjectOfType<GameManager>().GameOver();
+            if (audioManager != null)
+            {
+                audioManager.PlaySFX(audioManager.stumbleSound);
+                audioManager.StopBackgroundMusic();
+            }
+
+            FindAnyObjectByType<GameManager>().GameOver();
         } else if (other.gameObject.tag == "Scoring") {
-            FindObjectOfType<GameManager>().IncreaseScore();
+            FindAnyObjectByType<GameManager>().IncreaseScore();
         }
     }
 }
