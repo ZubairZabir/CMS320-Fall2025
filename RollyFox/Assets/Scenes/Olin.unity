@@ -409,7 +409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f47377c13a884eb8b9fcdab21991319, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spawner
-  prefab: {fileID: 6211744415713779545, guid: d54111d4332994672926f2242c453995, type: 3}
+  prefab: {fileID: 7663459964722869700, guid: 71c13104887b94eaaa822c461bed56eb, type: 3}
   spawnRate: 1
   minHeight: -1
   maxHeight: 1
