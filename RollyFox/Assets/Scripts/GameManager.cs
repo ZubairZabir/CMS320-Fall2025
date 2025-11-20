@@ -36,8 +36,17 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        audioManager = GameObject.FindGameObjectWithTag("music")
-                                 .GetComponent<AudioManager>();
+        GameObject musicObject = GameObject.FindGameObjectWithTag("music");
+        if (musicObject != null)
+        {
+            audioManager = musicObject.GetComponent<AudioManager>();
+        }
+        
+        // Stop all music when scene starts (menu/paused state)
+        if (audioManager != null)
+        {
+            audioManager.StopAllMusic();
+        }
     }
 
 
@@ -75,6 +84,11 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0f;
         player.enabled = false;
 
+        // Stop background music when paused (menu state)
+        if (audioManager != null)
+        {
+            audioManager.StopBackgroundMusic();
+        }
     }
 
     public void GameOver()
@@ -82,9 +96,10 @@ public class GameManager : MonoBehaviour
         gameOver.SetActive(true);
         playButton.SetActive(true);
 
-        // Play game over music (background music already stopped by Player)
+        // Stop background music and play game over music
         if (audioManager != null)
         {
+            audioManager.StopBackgroundMusic();
             audioManager.PlayGameOverMusic();
         }
 

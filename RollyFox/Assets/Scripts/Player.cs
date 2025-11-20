@@ -23,8 +23,11 @@ public class Player : MonoBehaviour
     private void Start(){
         InvokeRepeating(nameof(AnimateSprite), 0.15f, 0.15f);
 
-        audioManager = GameObject.FindGameObjectWithTag("music")
-                                 .GetComponent<AudioManager>();
+        GameObject musicObject = GameObject.FindGameObjectWithTag("music");
+        if (musicObject != null)
+        {
+            audioManager = musicObject.GetComponent<AudioManager>();
+        }
     }
 
     private void OnEnable()

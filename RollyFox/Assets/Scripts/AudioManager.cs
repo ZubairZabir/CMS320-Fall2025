@@ -19,12 +19,8 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
-        if (backgroundMusic != null && musicSource != null)
-        {
-            musicSource.clip = backgroundMusic;
-            musicSource.loop = true;
-            musicSource.Play();
-        }
+        // Don't auto-play background music - it will start when Play() is called
+        StopAllMusic();
     }
 
     public void PlaySFX(AudioClip clip)
@@ -47,6 +43,9 @@ public class AudioManager : MonoBehaviour
     {
         if (backgroundMusic != null && musicSource != null)
         {
+            // Cancel any pending music stops
+            CancelInvoke(nameof(StopAllMusic));
+            
             musicSource.clip = backgroundMusic;
             musicSource.loop = true;
             musicSource.Play();
@@ -57,9 +56,23 @@ public class AudioManager : MonoBehaviour
     {
         if (gameOverMusic != null && musicSource != null)
         {
+            // Cancel any pending music stops
+            CancelInvoke(nameof(StopAllMusic));
+            
             musicSource.clip = gameOverMusic;
             musicSource.loop = false;
             musicSource.Play();
+            
+            // Stop all music after game over music finishes
+            Invoke(nameof(StopAllMusic), gameOverMusic.length);
+        }
+    }
+
+    public void StopAllMusic()
+    {
+        if (musicSource != null && musicSource.isPlaying)
+        {
+            musicSource.Stop();
         }
     }
 }
