@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public Player player; 
 
-    public TMP_Text scoreText;
+    public TextMeshProUGUI scoreText;
     
     public GameObject playButton;
 
@@ -15,8 +15,19 @@ public class GameManager : MonoBehaviour
     private int score;
     private AudioManager audioManager;
 
+    public TextMeshProUGUI bestScoreText;
+
+    private int bestScore;
+
+    private const string BestScoreKey = "BestScore";
+
     private void Awake()
     {
+        bestScore = PlayerPrefs.GetInt(BestScoreKey, 0);
+        if (bestScoreText != null)
+        {
+            bestScoreText.text = $"Best: {bestScore}";
+        }
         Pause();
     }
 
@@ -31,6 +42,11 @@ public class GameManager : MonoBehaviour
     {
         score = 0;
         scoreText.text = score.ToString();
+
+        if (bestScoreText != null)
+        {
+            bestScoreText.text = $"Best: {bestScore}";
+        }
 
         playButton.SetActive(false);
         gameOver.SetActive(false);
@@ -69,6 +85,9 @@ public class GameManager : MonoBehaviour
             audioManager.PlayGameOverMusic();
         }
 
+        PlayerPrefs.SetInt(BestScoreKey, bestScore);
+        PlayerPrefs.Save();
+
         Pause();
     }
 
@@ -76,6 +95,16 @@ public class GameManager : MonoBehaviour
     {
         score++;
         scoreText.text = score.ToString();
+
+        if (score > bestScore)
+        {
+            bestScore = score;
+            PlayerPrefs.SetInt(BestScoreKey, bestScore);
+            if (bestScoreText != null)
+            {
+                bestScoreText.text = $"Best: {bestScore}";
+            }
+        }
     }
 
 }
