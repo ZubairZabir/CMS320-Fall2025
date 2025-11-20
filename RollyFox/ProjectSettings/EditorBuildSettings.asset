@@ -8,6 +8,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AllSaints.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 06420e6e203d247849db5e8012a13f84
+  - enabled: 1
+    path: Assets/Scenes/Olin.unity
+    guid: 4a163f342eb164cd1a3d37c3f93935f9
+  - enabled: 1
+    path: Assets/Scenes/Bush.unity
+    guid: dc8538853562b4154aeb6abc67f46a6a
+  - enabled: 1
+    path: Assets/Scenes/LakeVirginia.unity
+    guid: f5d2c49c9ed9342ce96dbf25c556eb20
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
