@@ -227,7 +227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f47377c13a884eb8b9fcdab21991319, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spawner
-  prefab: {fileID: 6211744415713779545, guid: d54111d4332994672926f2242c453995, type: 3}
+  prefab: {fileID: 6259987157475976588, guid: 545246b0cffa04686bfd34426425ea28, type: 3}
   spawnRate: 1
   minHeight: -1
   maxHeight: 1
@@ -1040,7 +1040,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.08, y: 0.08, z: 1}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1643,7 +1643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfe720c4b94ff4355b6fb76c7f7b895b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  animationSpeed: 0.5
+  animationSpeed: 0.2
 --- !u!23 &1792993030
 MeshRenderer:
   m_ObjectHideFlags: 0

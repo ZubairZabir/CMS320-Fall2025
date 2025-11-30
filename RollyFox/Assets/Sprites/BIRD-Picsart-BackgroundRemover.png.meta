@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 104acb7b5c67a423c8a2e0df383d5668
+guid: d24c220cfe77d4efcb1c73655e6e200a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -831176694922938055
-    second: lake_0
+      213: 5050046842489776544
+    second: BIRD-Picsart-BackgroundRemover_0
+  - first:
+      213: -77399026032601875
+    second: BIRD-Picsart-BackgroundRemover_1
+  - first:
+      213: 4066378274680433727
+    second: BIRD-Picsart-BackgroundRemover_2
+  - first:
+      213: -4723960602151171528
+    second: BIRD-Picsart-BackgroundRemover_3
+  - first:
+      213: -1083483065544356101
+    second: BIRD-Picsart-BackgroundRemover_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,18 +49,18 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -72,7 +84,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: 4
     textureCompression: 1
@@ -113,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lake_0
+      name: BIRD-Picsart-BackgroundRemover_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1536
-        height: 1024
+        x: 847
+        y: 1146
+        width: 512
+        height: 688
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +140,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 939f88123311774f0800000000000000
-      internalID: -831176694922938055
+      spriteID: 0a9afa1d8de551640800000000000000
+      internalID: 5050046842489776544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRD-Picsart-BackgroundRemover_1
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 1157
+        width: 676
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de49d53fef50deef0800000000000000
+      internalID: -77399026032601875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRD-Picsart-BackgroundRemover_2
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 956
+        width: 371
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c61b80f7dae6830800000000000000
+      internalID: 4066378274680433727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRD-Picsart-BackgroundRemover_3
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 646
+        width: 508
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ac6d76cde117eb0800000000000000
+      internalID: -4723960602151171528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRD-Picsart-BackgroundRemover_4
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 16
+        width: 918
+        height: 928
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfec31674e1b6f0f0800000000000000
+      internalID: -1083483065544356101
       vertices: []
       indices: 
       edges: []
@@ -148,7 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      lake_0: -831176694922938055
+      BIRD-Picsart-BackgroundRemover_0: 5050046842489776544
+      BIRD-Picsart-BackgroundRemover_1: -77399026032601875
+      BIRD-Picsart-BackgroundRemover_2: 4066378274680433727
+      BIRD-Picsart-BackgroundRemover_3: -4723960602151171528
+      BIRD-Picsart-BackgroundRemover_4: -1083483065544356101
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

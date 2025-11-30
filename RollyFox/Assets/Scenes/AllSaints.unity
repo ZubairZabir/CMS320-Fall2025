@@ -1403,7 +1403,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 6bda69b522cb24f65b600cbe6c595c6f, type: 3}
   - {fileID: 21300000, guid: 79b29c8974df345c78240800445b6231, type: 3}
   - {fileID: 21300000, guid: 2e840153110b84f738231c58991562e6, type: 3}
-  gravity: -9.8
+  gravity: -13
   strength: 5
 --- !u!58 &1440061445
 CircleCollider2D:
