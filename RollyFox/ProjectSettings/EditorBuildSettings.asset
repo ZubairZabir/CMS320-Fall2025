@@ -6,11 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/AllSaints.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 06420e6e203d247849db5e8012a13f84
+  - enabled: 1
+    path: Assets/Scenes/AllSaints.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
     path: Assets/Scenes/Olin.unity
     guid: 4a163f342eb164cd1a3d37c3f93935f9
